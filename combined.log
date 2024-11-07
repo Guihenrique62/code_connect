@@ -82,3 +82,99 @@
 {"level":"info","message":"Posts obitidos com sucesso!"}
 {"level":"info","message":"Posts obitidos com sucesso!"}
 {"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":{"author":{"avatar":"https://raw.githubusercontent.com/viniciosneves/code-connect-assets/main/authors/anabeatriz_dev.png","id":101,"name":"Ana Beatriz","username":"anabeatriz_dev"},"body":"Neste post, vamos explorar os conceitos básicos do React, uma biblioteca JavaScript para construir interfaces de usuário. Vamos cobrir componentes, JSX e estados.","cover":"https://raw.githubusercontent.com/viniciosneves/code-connect-assets/main/posts/introducao-ao-react.png","id":"1","markdown":"```javascript\nfunction HelloComponent() {\n  return <h1>Hello, world!</h1>;\n}\n```","slug":"introducao-ao-react","title":"Introdução ao React"}}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":{}}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"error","message":{}}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"error","message":[{"author":{"avatar":"https://raw.githubusercontent.com/viniciosneves/code-connect-assets/main/authors/anabeatriz_dev.png","id":101,"name":"Ana Beatriz","username":"anabeatriz_dev"},"body":"Este post detalha o uso do Flexbox para criar layouts responsivos e flexíveis no CSS, com exemplos práticos para um entendimento fácil.","cover":"https://raw.githubusercontent.com/viniciosneves/code-connect-assets/main/posts/explorando-flexbox-no-css.png","id":"7","markdown":"```css\n.flex-container {\n  display: flex;\n  justify-content: space-around;\n}\n```","slug":"explorando-flexbox-no-css","title":"Explorando Flexbox no CSS"}]}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":{}}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":{}}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"error","message":"explorando-flexbox-no-css"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"error","message":"explorando-flexbox-no-css"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Posts obitidos com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}
+{"level":"info","message":"Post detalhado obtido com sucesso!"}

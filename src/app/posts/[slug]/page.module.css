@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.blockOfCode {
+  padding: 16px 32px;
+  background: #171D1F;
+  color: #BCBCBC;
+  font-size: 1rem;
+  line-height: 2rem;
+}

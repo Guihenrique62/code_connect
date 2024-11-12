@@ -6,4 +6,3 @@ export const TextInput = () => {
     <input placeholder={"Digite o que você Procura..."} />
   )
 }
-

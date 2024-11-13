@@ -4,34 +4,39 @@ import logger from "@/logger";
 import { remark } from 'remark';
 import html from 'remark-html';
 import styles from './page.module.css'
-import { TextInput } from "@/components/TextInput";
+import db from "../../../../prisma/db";
+import { redirect } from "next/navigation";
 
 async function getPostBySlug(slug) {
+  try {
+    const post = await db.post.findFirst({
+      where: {
+        slug
+      },
+      include: {
+        author: true
+      }
+    })
 
-  const url = `http://localhost:3042/posts?slug=${slug}`
-  const response = await fetch(url)
-  if (!response.ok) {
-    logger.error('Erro ao requisitar dados!')
-    return {}
+    if(!post){
+      throw new Error(`Post com o slug ${slug} não foi encontrado!`)
+    }
+
+    // Use remark to convert markdown into HTML string
+    const processedContent = await remark()
+      .use(html)
+      .process(post.markdown);
+    const contentHtml = processedContent.toString();
+
+    post.markdown = contentHtml
+
+    return post
+  } catch (error) {
+    logger.error('Falha ao obter o post com o slug: ',{slug,error})
   }
 
-  logger.info('Post detalhado obtido com sucesso!')
+  redirect('/not-found')
 
-  const data = await response.json()
-  if (data.length == 0) {
-    return {}
-  }
-  const post = data[0]
-
-  // Use remark to convert markdown into HTML string
-  const processedContent = await remark()
-    .use(html)
-    .process(post.markdown);
-  const contentHtml = processedContent.toString();
-
-  post.markdown = contentHtml
-
-  return post
 }
 
 const PagePost = async ({ params }) => {
@@ -41,15 +46,14 @@ const PagePost = async ({ params }) => {
 
   return (
     <main className={styles.main}>
-      <TextInput />
-      <Post post={post}/>
-      
+      <Post post={post} />
+
       <div>
-        <h2 style={{color: 'white'}}>Código:</h2>
+        <h2 style={{ color: 'white' }}>Código:</h2>
         <div className={styles.blockOfCode} dangerouslySetInnerHTML={{ __html: post.markdown }} ></div>
       </div>
-      
-      
+
+
     </main>
 
 

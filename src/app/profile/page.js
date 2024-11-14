@@ -2,6 +2,7 @@ import logger from "@/logger"
 import styles from './profile.module.css'
 import db from "../../../prisma/db";
 import Link from "next/link";
+import ProfileSpan from "@/components/ProfileSpan";
 
 
 async function getAllUsers(page, searchTerm){
@@ -15,7 +16,7 @@ async function getAllUsers(page, searchTerm){
       }
     }
 
-    const perPage = 4;
+    const perPage = 6;
     const skip = (page -1) * perPage;
 
     //Calcula o total de paginas Arredondando pra cima
@@ -47,7 +48,7 @@ export default async function Profile ({searchParams}) {
   return (
     <main className={styles.main}>
       <div className={styles.container}>
-        {users.map(user => <h3 style={{color: 'white'}} key={user.id}>{user.username}</h3>)}
+        {users.map(user => <ProfileSpan key={user.id} user={user}/>)}
       </div>
       <div className={styles.footerContainer}>
         {prev && <Link href={{ pathname: '/profile', query: { page: prev, q: searchTerm }}} className={styles.handlePages}>Pagina Anterior</Link>}

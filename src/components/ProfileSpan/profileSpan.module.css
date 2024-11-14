@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  border: 1px solid #171D1F;
+  background-color: #171D1F;
+  gap: 16px;
+  width: 40%;
+  padding: 16px;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.container p {
+  width: 100%;
+}
+
+.btn{
+  background-color: #171D1F;
+  color: #888888;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid #888888;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #81FE88;
+  border: 1px solid #81FE88;
+}

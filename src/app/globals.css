@@ -13,3 +13,10 @@ body {
   height: 100%;
   
 }
+
+.content-container{
+  width: 1200px;
+  max-width: 90%;
+  gap: 28px;
+  height: 100%;
+}

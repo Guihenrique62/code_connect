@@ -1,0 +1,27 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  color: #BCBCBC;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.container h2{
+  color: #BFFFC3;
+}
+
+.container p{
+  max-width: 75%;
+  text-align: center;
+}
+
+.container a {
+  color: #BFFFC3;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container a:hover{
+  text-decoration: underline;
+}

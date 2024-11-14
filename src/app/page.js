@@ -16,7 +16,7 @@ async function getAllPosts (page,searchTerm) {
       }
     }
 
-    const perPage = 4;
+    const perPage = 6;
     const skip = (page -1) * perPage;
 
     //Calcula o total de paginas Arredondando pra cima
